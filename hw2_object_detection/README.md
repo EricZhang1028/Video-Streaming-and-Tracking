@@ -9,7 +9,7 @@ Student ID: 310551135
 - `Code/environment.yml` 為本次作業的環境，可事先匯入安裝。
 - 執行指令以創建conda環境
 ```sh
-$ conda env create -f environment.yml
+conda env create -f environment.yml
 ```
 
 ### Prepare datasets
