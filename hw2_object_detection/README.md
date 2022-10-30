@@ -7,9 +7,15 @@ Student ID: 310551135
 
 ### Import environment
 - `Code/environment.yml` 為本次作業的環境，可事先匯入安裝。
-- 執行指令以創建conda環境
+- 執行指令創建conda環境
 ```sh
 conda env create -f environment.yml
+```
+
+- 以下套件請在`上述環境`手動安裝
+```sh
+pip install opencv-python==4.6.0.66
+pip install tensorboard==2.9.0
 ```
 
 ### Prepare datasets
